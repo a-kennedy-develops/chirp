@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button";
 import { SignedOut, SignInButton, SignedIn, UserButton } from "@clerk/nextjs";
+import { Button } from "@/components/ui/button";
+import ModeToggle from "@/components/ModeToggle";
 
 export default function Login() {
   return (
@@ -12,6 +13,8 @@ export default function Login() {
       <SignedIn>
         <UserButton />
       </SignedIn>
+
+      <ModeToggle />
     </div>
   );
 }
