@@ -4,7 +4,7 @@ Chirp is a mock social media application built with Next.js, showcasing the powe
 
 ## 🚀 Tech Stack
 
-- **Framework:** Next.js 14 (App Router & Server Components)
+- **Framework:** Next.js 15
 - **Authentication:** Clerk
 - **Database:** PostgreSQL
 - **ORM:** Prisma
